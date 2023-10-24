@@ -1,4 +1,5 @@
 "use client";
+
 import { useEffect, useState } from "react";
 
 import { StoreModal } from "@/components/common/modals/store-modal";

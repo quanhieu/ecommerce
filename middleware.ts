@@ -1,5 +1,5 @@
 import { createI18nMiddleware } from 'next-international/middleware'
-import { NextRequest } from 'next/server'
+// import { NextRequest } from 'next/server'
 import { authMiddleware } from "@clerk/nextjs";
  
 const I18nMiddleware = createI18nMiddleware({

@@ -1,6 +1,6 @@
 'use client'
 
-import { useStoreModal } from "@/hook/use-store-modal";
+import { useStoreModal } from "@/hooks/use-store-modal";
 import { useEffect } from "react";
 
 // import { getI18n, getCurrentLocale, getScopedI18n } from "@/locales/server";
