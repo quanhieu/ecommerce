@@ -17,6 +17,7 @@ export default authMiddleware({
     // Execute next-intl middleware before Clerk's auth middleware
     return I18nMiddleware(req);
   },
+  publicRoutes: ["/api/:path*"],
   // Ensure that locale specific sign-in pages are public
   //publicRoutes: ["/", "/:locale/sign-in"],
 });
