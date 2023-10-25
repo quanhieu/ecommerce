@@ -22,7 +22,7 @@ import {
 } from "@/components/ui/form"
 import { Separator } from "@/components/ui/separator"
 import { Heading } from "@/components/common/heading"
-import { AlertModal } from "@/components/common/modals/alert.modal"
+import { AlertModal } from "@/components/common/modals/alert-modal"
 import { ApiAlert } from "@/components/common/api-alert"
 import { useOrigin } from "@/hooks/use-origin"
 
