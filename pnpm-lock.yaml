@@ -38,6 +38,7 @@ specifiers:
   react-day-picker: ^8.9.1
   react-dom: ^18
   react-hook-form: ^7.47.0
+  react-spinners: ^0.13.8
   tailwind-merge: ^1.14.0
   tailwindcss: ^3
   tailwindcss-animate: ^1.0.7
@@ -75,6 +76,7 @@ dependencies:
   react-day-picker: 8.9.1_kzhlcyde2l6xjiirkbg7jzhosa
   react-dom: 18.2.0_react@18.2.0
   react-hook-form: 7.47.0_react@18.2.0
+  react-spinners: 0.13.8_biqbaboplfbrettd7655fr4n2y
   tailwind-merge: 1.14.0
   tailwindcss-animate: 1.0.7_tailwindcss@3.3.3
   zod: 3.22.4
@@ -3662,6 +3664,16 @@ packages:
       tslib: 2.6.2
       use-callback-ref: 1.3.0_4r6hgnselqdgzo3f3gd364vqle
       use-sidecar: 1.1.2_4r6hgnselqdgzo3f3gd364vqle
+    dev: false
+
+  /react-spinners/0.13.8_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-3e+k56lUkPj0vb5NDXPVFAOkPC//XyhKPJjvcGjyMNPWsBKpplfeyialP74G7H7+It7KzhtET+MvGqbKgAqpZA==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react-style-singleton/2.2.1_4r6hgnselqdgzo3f3gd364vqle:
